@@ -1,10 +1,7 @@
-import { createContext, useState, useEffect } from "react";
-import axios from 'axios';
+import { createContext, useState } from "react";
 import { search } from '../components/GetCity'
-import CITIES from '../cities'
 
- 
-const API_KEY = "a8e0802b5bb7b33a62b61f79c6716145"
+
 
 const WeatherContext = createContext(null);
 
