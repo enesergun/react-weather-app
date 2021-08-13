@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  max-width: 990px;
+  margin: 0 auto;
+  background: rgb(33,158,247);
+  background: linear-gradient(176deg, rgba(33,158,247,1) 0%, rgba(166,207,251,1) 83%);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+form {
+
+  padding: 20px;
+}
+
+form select {
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+}
+.container{
+  padding: 10px;
+}
+
+
+.days {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.day {
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.current {
+  border: 1px solid #48484A;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.dayName,
+.min {
+  color: #F2F2F1;
+}
+
+
+.temps {
+  display: flex;
+  font-size: 15px;
+}
+
+.max,
+.min {
+  margin: 5px;
+}
+
+
+.max {
+  font-weight: bold;
+  color: #48484A;
+}
